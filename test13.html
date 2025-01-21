@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO TEA HEE</title>
+</head>
+<body>
+    <!-- Form Tag (ป้อนกับเลือก): (Block Tag) -->
+    <!-- Detail ของ Form Tag เช่น Input Tag, Button Tag : (Inline Tag)-->
+    <!-- method: Get, Post, Put, Delete, Patch -->
+    <form action="" method="" enctype="multipart/form-data">
+        <Label>ป้อนข้อความ</Label>:
+        <input type="text" id="" name="" placeholder="ชื่อ-สกุล">
+        <br><br>
+        <label>ป้อนตัวเลข</label>:
+        <input type="number" id="" name="" placeholder="อายุ">
+        <br><br>
+        <label>ป้อนอีเมล</label>:
+        <input type="email" id="" name="" placeholder="อีเมล">
+        <br><br>
+        <label>ป้อนข้อมูลเยอะๆ</label>:
+        <textarea name="" id="" placeholder="รายละเอียดส่วนตัว"></textarea>
+        <br><br>
+        <label>เลือกได้แค่ 1 เช่น เพศ</label>:
+        <input type="radio" name="gender" id="" value="male"> ชาย
+        <input type="radio" name="gender" id="" value="female"> หญิง
+        <input type="radio" name="gender" id="" value="LGBTQ+" checked> LGBTQ+
+        <br><br>
+        <label>เลือกได้แค่ 1 เช่น สาขาวิชา</label>:
+        <select name="" id="">
+            <option value="11">IOT</option>
+            <option value="22">DTI</option>
+            <option value="33">Accouting</option>
+            <option value="44">Marketing</option>    
+            <option value="55">Civil</option>
+        </select>
+        <br><br>
+        <label>เลือกได้มากกว่า 1 หรือไม่เลือกก็ได้ เช่น อาหารที่ชอบ</label>
+        <input type="checkbox" name="" id="1"> มันบด
+        <input type="checkbox" name="" id="2"> ครัวซอง
+        <input type="checkbox" name="" id="3"> โกโก้
+        <br><br>
+        <label>ไฟล์ที่จะอัปโหลด</label><br>
+        <input type="file" name="" id="" accept="image/*"><br>
+        <input type="file" name="" id="" accept="audio/*"><br>
+        <input type="file" name="" id="" accept="video/*"><br>
+        <input type="file" name="" id="" accept=".pdf"><br>
+        <input type="file" name="" id="" accept=".docx, xlxs, pptx"><br>
+        <br><br>
+        <label>เลือกวัน</label>:
+        <input type ="date" name="" id="">
+        <br><br>
+        <label>เลือกเวลา</label>:
+        <input type ="time" name="" id="">
+        <br><br>
+        <label>เลือกวัน และเวลา</label>:
+        <input type ="datetime-local" name="" id="">
+        <br><br>
+        <!-- ประเภทปุ่ม-->
+        <!-- เอาข้อมูลที่ป้อนหรือเลือกไปประมวลผล-->
+        <input type="submit" value="ตกลง"> <br><br>
+        <!-- ล้างข้อมูลที่ป้อนหรือเลือก-->
+        <input type="submit" value="ยกเลิก"> <br><br>
+        <!-- แล้วแต่จะทำอะไรก็ได้-->
+        <button>ตกลง</button>
+        <button>ยกเลิก</button>
+        <button>อื่นๆ</button>
+        <!-- input ประเภทที่ซ่อนเอาไว้ไม่เห็นบน Form-->
+        <!-- เหมาะสำหรับข้อมูลที่ต้องส่งไปประมวลผล แต่ไม่ต้องการให้ผู้ใช้ป้อนหรือเลือก-->
+        <input type="hidden" name="stu-status" id="" value="นักศึกษาปกติ">
+
+    </form>
+
+</body>
+</html>
